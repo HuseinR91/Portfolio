@@ -169,8 +169,124 @@ nav > a {
 }
 
 .bg-grey {
-    background: #F1fFF1;
+    background: #F1F1F1;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+.contact__text {
+    width: 450px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.contact__title {
+    font-size: 74px;
+    font-weight: 500;
+    margin-bottom: 100px;
+
 }
 
 
+.contact__input {
+    width: 820px;
+    padding: 20px 0 20px 40px;
+    border: 2px solid #313A5F;
+    border-radius: 58px;
+    margin-bottom: 35px;
+    background: transparent;
+    font-size: 24px;
 
+}
+
+.contact__input:hover {
+    
+}
+
+.contact__input::placeholder {
+    color: #A6A6A6;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact__btn:hover {
+    background-color: #414C79;
+
+}
+
+.contact__btn {
+    display: flex;
+    width: 820px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 58px;
+    border: 2px solid #313A5F;
+    background: #313A5F;
+    color: #fff;
+    font-family: inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    
+
+}
+
+.contact__text2 {
+    width: 520px;
+    margin-top: 50px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 40px;
+    list-style: none;
+    font-size: 34px;
+    gap: 60px;
+}
+
+.menu__line {
+    color: inherit;
+    text-decoration: none;
+}
+.navconatact {
+    display: flex;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    gap: 155px;
+}

@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио</title>
     <link rel="stylesheet" href="/style/index.css">
+    <script defer src="/js/index.js"></script>
+    <script src="https://unpkg.com/imask"></script>
 </head>
 <body>
     <header class="bg-blue">
@@ -68,39 +70,31 @@
             <div class="contact">
                 <h1 class="contact__title textcenter">Обсудим проект?</h1>
                 <div>
-                    <p class="contact__text textcenter">Заполните форму обратной связи</p>
+                    <p class="contact__text">Заполните форму обратной связи</p>
                 </div>
-                <div>
+                <label>
                     <p>Ваше имя</p>
                     <input class="contact__input" type="text" placeholder="Хусейн">
-                </div>
-                <div>
+                </label>
+                <label>
                     <p>Ваш email</p>
-                    <input id="email" type="email" placeholder="mail@example.com">
-                </div>
-                <div>
+                    <input id="email" class="contact__input" type="email" placeholder="mail@example.com">
+                </label>
+                <label>
                     <p>Ваш телефон</p>
                     <input id="phone-mask" class="contact__input" type="text" placeholder="+7928777 00 22">
-                </div>
+                </label>
                 <button class="contact__btn">Отправить</button>
-                <p class="contact__text">Или свяжитесь со мной удобным способом связи, расположенным ниже
-                    
+                <p class="contact__text2">Или свяжитесь со мной удобным способом связи, расположенным ниже  
                 </p>
-
+                <div class="navconatact">
+                    <a class="menu__line" href="">TELEGRAM</a>
+                    <a class="menu__line" href="">WHATSAPP</a>
+                    <a class="menu__line" href="">INSTAGRAM</a>
+                    <a class="menu__line" href="">E-MAIL</a>
+                </div>
             </div>
         </div>
     </section>
-    
-    <div class="wrapper">
-        <div class="information-form">
-            <div class="nformation-title">
-                Обсудим проект
-            </div>
-            <div class="section-information">
-                Заполните форму обратной связи
-            </div>
-            
-        </div>
-    </div>        
 </body>
 </html>
